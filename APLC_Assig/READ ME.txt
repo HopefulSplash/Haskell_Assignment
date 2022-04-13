@@ -1,0 +1,14 @@
+Follow the directions below to finding the files containing both the Haskell and Java solution
+
+Haskell Implementation -> APLC_TSP.Hs
+Java Implementations -> APLC_TSP.Java -> src -> APLC_TSP_JAVA_SOLUTION
+
+To run the haskell solutions load them in GCHi and then type result to produce and answer in all 3 solutions
+
+Brute_Force_Algorithm_TSP.hs ------> type "result" once loaded
+Nearest_Neighbour_Algorithm_TSP.hs ------> type "result" once loaded
+Repetitive_Nearest_Neighbour_Algorithm_TSP ------> type "result" once loaded
+
+To run the java open an IDE and open the project as a whole not the individual files and run them
+
+If you have any issues please contact me via email my student number is c012952a

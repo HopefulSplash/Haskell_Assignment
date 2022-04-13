@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Nearest_Neighbour_Algorithm_TSP">
+  <ClassDiagramComponents>
+    <Class name="Nearest_Neighbour_Algorithm_TSP" package="APLC_TSP_JAVA_SOLUTION" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="city_Distance_Matrix" type="double[][]" visibility="package" isStatic="true"/>
+        <Field name="city_Name_Array" type="String[]" visibility="package" isStatic="true"/>
+        <Field name="city_Nearest_Route_List" type="ArrayList&lt;Integer&gt;" visibility="package" isStatic="true"/>
+        <Field name="city_Nearest_Route_Weight_List" type="ArrayList&lt;Double&gt;" visibility="package" isStatic="true"/>
+        <Field name="start_Location" type="int" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+        <Method name="generate_Nearesest_Route" returnType="void" visibility="private" isStatic="true">
+          <Argument type="int" name="starting_City"/>
+        </Method>
+        <Method name="generate_Nearest_Neighbour" returnType="void" visibility="private" isStatic="true">
+          <Argument type="double[]" name="city_Data"/>
+        </Method>
+        <Method name="generate_Route_Weight" returnType="double" visibility="private" isStatic="true">
+          <Argument type="ArrayList&lt;Double&gt;" name="city_Route"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
